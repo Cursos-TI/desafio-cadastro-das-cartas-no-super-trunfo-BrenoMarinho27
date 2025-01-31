@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
     // Definindo variáveis 
     int codigo;
@@ -24,7 +26,7 @@ int main() {
     scanf("%lf", &pib);  // Corrigido: usado %lf para double
 
     printf("Quantos pontos turísticos? ");
-    scanf("%d", &pontos);  // Corrigido: usado '&' para passar o endereço
+    scanf("%d", &pontos); 
 
     // Exibindo as respostas
     printf("\nDados da carta:\n");
@@ -32,8 +34,8 @@ int main() {
     printf("Nome da cidade: %s\n", nome);
     printf("População: %.2f habitantes\n", populacao);  // Corrigido: removido o acento
     printf("Área: %.2f Km²\n", area);
-    printf("PIB: %.2f bilhões de reais\n", pib);
-    printf("Pontos turísticos: %d\n", pontos);  // Corrigido: adicionado \n no final
+    printf("PIB: %.2f bilhões\n", pib);
+    printf("Pontos turísticos:%d\n", pontos);  
 
     return 0;
 }
