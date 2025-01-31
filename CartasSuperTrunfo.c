@@ -32,8 +32,8 @@ int main() {
     printf("Nome da cidade: %s\n", nome);
     printf("População: %.2f habitantes\n", populacao);  // Corrigido: removido o acento
     printf("Área: %.2f Km²\n", area);
-    printf("PIB: %.2f bilhões\n", pib);
-    printf("%d pontos turísticos\n", pontos);  // Corrigido: adicionado \n no final
+    printf("PIB: %.2f bilhões de reais\n", pib);
+    printf("Pontos turísticos: %d\n", pontos);  // Corrigido: adicionado \n no final
 
     return 0;
 }
